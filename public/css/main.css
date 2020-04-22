@@ -1,12 +1,22 @@
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+@import url("./header.css");
+@import url("./stories.css");
+@import url("./card.css");
 
 body {
   font-family: "Open Sans", sans-serif;
+  background-color: #fafafa;
 }
 
 *,
 *:after,
 *:before {
+  list-style: none;
   box-sizing: border-box;
+}
+
+hr {
+  width: 100%;
+  background-color: #fff;
 }

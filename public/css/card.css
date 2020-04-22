@@ -1,0 +1,33 @@
+.card {
+  width: 90vw;
+  height: 40vh;
+  background-color: #fff;
+  border-radius: 5%;
+}
+
+.card__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 3% 5%;
+  align-items: center;
+}
+
+.card__header__user {
+  display: flex;
+  width: 100%;
+  text-decoration: none;
+}
+
+.card__header__img {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+}
+
+.card__header__title {
+  color: #000;
+  margin-left: 4%;
+  vertical-align: middle;
+  font-weight: bold;
+  font-size: 12px;
+}
