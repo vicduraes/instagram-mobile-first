@@ -1,0 +1,18 @@
+.stories {
+  display: flex;
+  justify-content: flex-start;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+.stories__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.stories__img {
+  border-radius: 50%;
+  width: 80px;
+}
