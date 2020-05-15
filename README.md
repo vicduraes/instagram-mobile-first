@@ -25,13 +25,3 @@ Neste desafio, você vai praticar os seus conhecimentos em:
 
 - **[Node v13.8.0](https://nodejs.org/en/)** - ou superior, instalado em seu computador;
 - **[Live Server](https://www.npmjs.com/package/live-server)**.
-
-## Screenshots de Referência
-
-### Versão Mobile:
-
-![](https://codenation-challenges.s3-us-west-1.amazonaws.com/react-12/screenshot-aula-02-mobile.jpg)
-
-### Versão Desktop:
-
-![](https://codenation-challenges.s3-us-west-1.amazonaws.com/react-12/screenshot-aula-02-desktop.jpg)
