@@ -4,9 +4,26 @@
 @import url("./stories.css");
 @import url("./card.css");
 
+html {
+  font-size: 10px;
+}
+
 body {
+  padding-top: 56px;
   font-family: "Open Sans", sans-serif;
   background-color: #fafafa;
+  color: #000000;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
 }
 
 *,
@@ -16,7 +33,13 @@ body {
   box-sizing: border-box;
 }
 
-hr {
+.container {
   width: 100%;
-  background-color: #fff;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 728px) {
+  .container {
+    width: 728px;
+  }
 }

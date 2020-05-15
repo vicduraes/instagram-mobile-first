@@ -1,14 +1,24 @@
+.card__feed {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
 .card {
-  width: 90vw;
-  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin-bottom: 30px;
   background-color: #fff;
-  border-radius: 5%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
 }
 
 .card__header {
   display: flex;
   justify-content: space-between;
-  padding: 3% 5%;
+  padding: 2%;
   align-items: center;
 }
 
@@ -26,8 +36,68 @@
 
 .card__header__title {
   color: #000;
-  margin-left: 4%;
+  margin-left: 8px;
   vertical-align: middle;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 1.2rem;
+}
+
+.card__header__button {
+  font-size: 1.4rem;
+}
+
+.card__figure {
+  overflow: hidden;
+  margin: 0;
+  height: auto;
+  width: 100%;
+}
+
+.card__figure img {
+  width: 100%;
+}
+
+.card__actions {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding: 4px 0;
+}
+
+.card__button {
+  margin: 0 8px;
+  font-size: 2.4rem;
+  border: none;
+  background-color: transparent;
+}
+
+.card__button:last-of-type {
+  justify-self: flex-end;
+  margin-left: auto;
+}
+
+.card__footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px;
+  background-color: #0000000d;
+}
+
+.card__footer__img {
+  height: 30px;
+  width: 30px;
+  margin-right: 8px;
+  border-radius: 50%;
+}
+
+.card__footer__span {
+  font-size: 1.2rem;
+}
+
+@media screen and (min-width: 728px) {
+  .card__feed {
+    padding: 16px 0;
+  }
 }
