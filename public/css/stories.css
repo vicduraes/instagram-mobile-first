@@ -1,9 +1,16 @@
 .stories {
+  width: 100%;
+  margin: 0;
+  padding: 16px 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.stories__container {
+  align-items: center;
   display: flex;
   justify-content: flex-start;
-  width: 100vw;
-  margin: 0;
-  padding: 0;
+  width: 100%;
 }
 
 .stories__list {
@@ -12,7 +19,35 @@
   padding: 0;
 }
 
+.stories .stories__user {
+  justify-content: center;
+  align-items: center;
+  width: 78px;
+  height: 78px;
+  margin: 0 8px;
+}
+
+.stories__user {
+  display: flex;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.stories__user--new {
+  background: linear-gradient(45deg, #f5a04d 0%, #a00f8b 100%);
+}
+
+.stories__user__border {
+  height: 72px;
+  width: 72px;
+  border-radius: 100%;
+  border: 2px solid #fff;
+  display: inline-block;
+  overflow: hidden;
+}
+
 .stories__img {
   border-radius: 50%;
-  width: 80px;
+  width: 100%;
+  height: 100%;
 }

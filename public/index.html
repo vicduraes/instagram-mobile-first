@@ -15,59 +15,320 @@
   </head>
   <body>
     <header class="header">
-      <img
-        class="header__logo"
-        src="./img/instagram-logo.svg"
-        alt="logo instagram"
-      />
-      <i class="far fa-paper-plane"></i>
-    </header>
-    <hr />
-    <section class="stories">
-      <ul class="stories__list">
-        <li>
-          <a href="#">
-            <img
-              class="stories__img"
-              src="./img/profiles/yoda/yoda-profile.jpg"
-              alt="mestre yoda foto stories"
-            />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img
-              class="stories__img"
-              src="./img/profiles/gamora/gamora-profile.jpg"
-              alt="gamora foto stories"
-            />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img
-              class="stories__img"
-              src="./img/profiles/black-panther/black-panther-profile.jpg"
-              alt="pantera negra foto stories"
-            />
-          </a>
-        </li>
-      </ul>
-    </section>
-    <main>
-      <div class="card">
-        <div class="card__header">
-          <a href="#" class="card__header__user">
-            <img
-              class="card__header__img"
-              src="./img/profiles/yoda/yoda-profile.jpg"
-              alt="mestre yoda foto stories"
-            />
-            <p class="card__header__title">Mestre Yoda</p>
-          </a>
-          <i class="fas fa-ellipsis-h"></i>
-        </div>
+      <div class="container">
+        <a href="#" class="header__logo">
+          <img src="./img/instagram-logo.svg" alt="logo instagram" />
+        </a>
+        <button class="header__button">
+          <i class="far fa-paper-plane"></i>
+        </button>
       </div>
-    </main>
+    </header>
+    <div class="container">
+      <section class="stories">
+        <div class="stories__container">
+          <ul class="stories__list">
+            <li class="stories__user">
+              <a href="#">
+                <span class="stories__user__border">
+                  <img
+                    class="stories__img"
+                    src="./img/profiles/yoda/yoda-profile.jpg"
+                    alt="mestre yoda foto stories"
+                  />
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="stories__user stories__user--new">
+                <span class="stories__user__border">
+                  <img
+                    class="stories__img"
+                    src="./img/profiles/gamora/gamora-profile.jpg"
+                    alt="gamora foto stories"
+                  />
+                </span>
+              </a>
+            </li>
+            <li class="stories__user">
+              <a href="#">
+                <span class="stories__user__border">
+                  <img
+                    class="stories__img"
+                    src="./img/profiles/black-panther/black-panther-profile.jpg"
+                    alt="pantera negra foto stories"
+                  />
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <div class="container">
+      <main class="card__feed">
+        <div class="card">
+          <div class="card__header">
+            <a href="#" class="card__header__user">
+              <img
+                class="card__header__img"
+                src="./img/profiles/yoda/yoda-profile.jpg"
+                alt="mestre yoda foto stories"
+              />
+              <p class="card__header__title">Mestre Yoda</p>
+            </a>
+            <button class="card__header__button">
+              <i class="fas fa-ellipsis-h"></i>
+            </button>
+          </div>
+          <figure class="card__figure">
+            <img src="./img/profiles/yoda/yoda-1.jpg" alt="Post Yodinha" />
+          </figure>
+          <nav class="card__actions">
+            <button class="card__button">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="card__button">
+              <i class="far fa-comment"></i>
+            </button>
+            <button class="card__button">
+              <i class="far fa-bookmark"></i>
+            </button>
+          </nav>
+          <div class="card__footer">
+            <a href="#">
+              <img
+                class="card__footer__img"
+                src="./img/profiles/domino/domino-profile.jpg"
+                alt="Foto de profile da Domino"
+              />
+            </a>
+            <span class="card__footer__span">
+              curtido por <a href="#">Domino</a> e outras
+              <a href="#"> 7 pessoas</a>
+            </span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__header">
+            <a href="#" class="card__header__user">
+              <img
+                class="card__header__img"
+                src="./img/profiles/gamora/gamora-profile.jpg"
+                alt="gamora foto stories"
+              />
+              <p class="card__header__title">Gamora Zen</p>
+            </a>
+            <button class="card__header__button">
+              <i class="fas fa-ellipsis-h"></i>
+            </button>
+          </div>
+          <figure class="card__figure">
+            <img src="./img/profiles/gamora/gamora-1.jpg" alt="Post Gamora" />
+          </figure>
+          <nav class="card__actions">
+            <button class="card__button">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="card__button">
+              <i class="far fa-comment"></i>
+            </button>
+            <button class="card__button">
+              <i class="far fa-bookmark"></i>
+            </button>
+          </nav>
+          <div class="card__footer">
+            <a href="#">
+              <img
+                class="card__footer__img"
+                src="./img/profiles/carol/carol-profile.jpg"
+                alt="Foto de profile da Carol Danvers"
+              />
+            </a>
+            <span class="card__footer__span">
+              curtido por <a href="#">Carol Danvers</a> e outras
+              <a href="#"> 7 pessoas</a>
+            </span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__header">
+            <a href="#" class="card__header__user">
+              <img
+                class="card__header__img"
+                src="./img/profiles/black-panther/black-panther-profile.jpg"
+                alt="mestre yoda foto stories"
+              />
+              <p class="card__header__title">T'Challa</p>
+            </a>
+            <button class="card__header__button">
+              <i class="fas fa-ellipsis-h"></i>
+            </button>
+          </div>
+          <figure class="card__figure">
+            <img
+              src="./img/profiles/black-panther/black-panther-1.jpg"
+              alt="Post T'Challa"
+            />
+          </figure>
+          <nav class="card__actions">
+            <button class="card__button">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="card__button">
+              <i class="far fa-comment"></i>
+            </button>
+            <button class="card__button">
+              <i class="far fa-bookmark"></i>
+            </button>
+          </nav>
+          <div class="card__footer">
+            <a href="#">
+              <img
+                class="card__footer__img"
+                src="./img/profiles/bruce/bruce-profile.jpg"
+                alt="Foto de profile do Bruce Wayne"
+              />
+            </a>
+            <span class="card__footer__span">
+              curtido por <a href="#">Bruce Wayne</a> e outras
+              <a href="#"> 5 pessoas</a>
+            </span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__header">
+            <a href="#" class="card__header__user">
+              <img
+                class="card__header__img"
+                src="./img/profiles/carol/carol-profile.jpg"
+                alt="Carol Danvers foto profile"
+              />
+              <p class="card__header__title">Carol Danvers</p>
+            </a>
+            <button class="card__header__button">
+              <i class="fas fa-ellipsis-h"></i>
+            </button>
+          </div>
+          <figure class="card__figure">
+            <img
+              src="./img/profiles/carol/carol-1.jpg"
+              alt="Post Carol Danvers"
+            />
+          </figure>
+          <nav class="card__actions">
+            <button class="card__button">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="card__button">
+              <i class="far fa-comment"></i>
+            </button>
+            <button class="card__button">
+              <i class="far fa-bookmark"></i>
+            </button>
+          </nav>
+          <div class="card__footer">
+            <a href="#">
+              <img
+                class="card__footer__img"
+                src="./img/profiles/yoda/yoda-profile.jpg"
+                alt="Foto de profile Mestre Yoda"
+              />
+            </a>
+            <span class="card__footer__span">
+              curtido por <a href="#">Mestre Yoda</a> e outras
+              <a href="#"> 7 pessoas</a>
+            </span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__header">
+            <a href="#" class="card__header__user">
+              <img
+                class="card__header__img"
+                src="./img/profiles/domino/domino-profile.jpg"
+                alt="Domino foto profile"
+              />
+              <p class="card__header__title">Domino</p>
+            </a>
+            <button class="card__header__button">
+              <i class="fas fa-ellipsis-h"></i>
+            </button>
+          </div>
+          <figure class="card__figure">
+            <img src="./img/profiles/domino/domino-1.jpg" alt="Post Domino" />
+          </figure>
+          <nav class="card__actions">
+            <button class="card__button">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="card__button">
+              <i class="far fa-comment"></i>
+            </button>
+            <button class="card__button">
+              <i class="far fa-bookmark"></i>
+            </button>
+          </nav>
+          <div class="card__footer">
+            <a href="#">
+              <img
+                class="card__footer__img"
+                src="./img/profiles/black-panther/black-panther-profile.jpg"
+                alt="Foto de profile de T'Challa"
+              />
+            </a>
+            <span class="card__footer__span">
+              curtido por <a href="#">T'Challa</a> e outras
+              <a href="#"> 10 pessoas</a>
+            </span>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__header">
+            <a href="#" class="card__header__user">
+              <img
+                class="card__header__img"
+                src="./img/profiles/bruce/bruce-profile.jpg"
+                alt="Bruce Wayne foto profile"
+              />
+              <p class="card__header__title">Bruce Wayne</p>
+            </a>
+            <button class="card__header__button">
+              <i class="fas fa-ellipsis-h"></i>
+            </button>
+          </div>
+          <figure class="card__figure">
+            <img
+              src="./img/profiles/bruce/bruce-1.jpg"
+              alt="Post Bruce Wayne"
+            />
+          </figure>
+          <nav class="card__actions">
+            <button class="card__button">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="card__button">
+              <i class="far fa-comment"></i>
+            </button>
+            <button class="card__button">
+              <i class="far fa-bookmark"></i>
+            </button>
+          </nav>
+          <div class="card__footer">
+            <a href="#">
+              <img
+                class="card__footer__img"
+                src="./img/profiles/gamora/gamora-profile.jpg"
+                alt="Foto de profile da Gamora"
+              />
+            </a>
+            <span class="card__footer__span">
+              curtido por <a href="#">Gamora Zen</a> e outras
+              <a href="#"> 2 pessoas</a>
+            </span>
+          </div>
+        </div>
+      </main>
+    </div>
   </body>
 </html>
