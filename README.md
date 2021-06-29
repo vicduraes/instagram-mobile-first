@@ -6,7 +6,7 @@ Desafio do curso **React Women**, desenvolvido pela [Codenation](https://www.cod
 
 Desenvolver uma versão **mobile first** do Instagram utilizando apenas **HTML5** e **CSS3**.
 
-> **Preview:** > [Instagram Codenation](https://viniciusvinna.netlify.app/html-instagram/)
+![amora-demo](./docs/demo-site.gif)
 
 ## Tópicos:
 
